@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    font-style: italic;
+    justify-content: space-between;
+    display:flex;
+    padding-top:8px;
+    background-color: black;
+}
+#navbar ul{
+    display: flex;
+    margin-left: 20px;
+   
+    
+}
+#navbar ul li{
+    font-size: 25px;
+    
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding: 1px 20px;
+    color: rgb(233, 237, 240);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    
+}
+#navbar ul li a:hover{
+    text-decoration:underline rgb(86, 106, 218);
+    color: rgb(86, 106, 218); ;
+    transition:0.5s;
+}
+
+
+.maindiv{
+    float: left;
+    position: absolute;
+    width: 50%;
+    margin-top:110px;
+    margin-left: 60px;
+
+}
+
+.mainsec{
+    display: flex;
+    background-color: black;
+    
+}
+.bg{
+   height:670px;
+   width:100%;
+   background-image: url(BG1.jpg);
+   background-repeat: no-repeat;
+   margin-left:570px;
+   background-size: cover;
+   position:sticky;
+   
+   
+   
+
+}
+#typing-animation{
+    color: #2b6fed;
+    font-size: 60px;
+    
+}
+
+/*----------about------*/
+
+P{
+    color:white;
+    font-size:90px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.span{
+    color: rgb(86, 106, 218);
+    
+}
+ 
+.section2{
+   background-color: #000;
+    z-index: -1;
+   
+    height:100vh;
+}
+h1{
+    color: aliceblue;
+}
+.para{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.abtdiv{
+    padding: 10px 50px;
+}
+.tab {
+    display: none;
+    margin-left:100px;
+    font-size: 30px;
+    color: #6e97e4;
+    margin-right:100px;
+  }
+  .tab li{
+    margin-top: 10px;
+  }
+  .animation{
+    margin: 20px 10px;
+  }
+ 
+  
+ 
+
+  /* Show the active tab */
+  .tab.active {
+    display: block;
+    color: #f4f7ff;
+  }
+
+  /* Styles for tab navigation */
+  .tab-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-left:48px;
+    margin-top: 1px;
+  }
+  .tab-nav li{
+    padding: 5px  35px;
+  }
+
+
+  .tab-nav-item {
+    margin-right: 10px;
+    cursor: pointer;
+    font-size:43px;
+    color:#f9f9f9;
+    text-decoration: underline blue;
+    
+  }
+  .tab-nav-item:hover{
+    text-decoration: none;
+    color:#c6c3c3;
+    transition: 1s;
+  }
+
+.projectlinks a{
+    color:#fff;
+}
+
+.skillphoto {
+    overflow: hidden; /* added overflow hidden */
+  }
+  
+  .skillphoto img {
+    height: 410px;
+    width: auto;
+    margin-left: 240px;
+    margin-bottom: 50px;
+    display: block;
+    margin-top:55px;
+    transition: transform 0.5s; /* added transition effect */
+  }
+  
+  .skillphoto img:hover {
+    transform: scale(1.1); /* added hover effect to zoom in */
+  }
+  
+  
+.flexbox{
+    display: flex;
+    margin-left: 30px;
+}
+
+
+/*..............Education........*/
+
+
+.edusec{
+    height:100vh;
+    width: 100%;
+    background-image: url(bg102.jpg);
+}
+.edu{
+    font-size:60px;
+    margin-left:620px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.divedu{
+    height:1px;
+    width: 900px;
+    margin-left: 290px;
+    border:1px solid rgb(13, 42, 174);
+    background-color: blue;
+}
+.edu1{
+    height:200px;
+    width:500px;
+    background-color: rgb(31, 33, 34);
+
+}
+.edu1:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgb(81, 82, 82);;
+}
+.year1{
+    color: blue;
+    margin-left:190px;
+    font-family: ;
+    margin-top:16px;
+}
+.degree{
+    font-size:25px;
+    margin-left:60px;
+    color: aliceblue;
+    margin-top: 30px;
+}
+.college{
+    font-size:10px ;
+    color: aliceblue;
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size:15px;
+}
+.grade{
+    font-size: 12px;
+    margin-left:60px;
+    margin-top:9px ;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    margin-left:180px;
+    margin-right: 180px;
+    margin-top:80px;
+}
+
+
+/*............project.........*/
+
+
+.projectsec{
+    height:100vh;
+}
+.projectsec h1{
+    color: #19408a;
+    font-size: 70px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.divline2{
+    height: 4px;
+    width: 700px;
+    background-color:#19408a;
+    margin-left: 400px;
+}
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .image-wrapper {
+    text-align: center;
+  }
+  
+  .image-wrapper img {
+    width: 70%; 
+    margin: 10px; 
+  }
+  .image-wrapper img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+  
+  .image-wrapper h1 {
+    font-size:30px; 
+    margin-top: 10px;
+  }
+  .prjctpara{
+    font-size:20px;
+    color:blue;
+    margin: 10px 40px;
+    padding: 2px 15px;
+  }
+
+
+
+/*............footer.........*/
+
+
+footer{
+	position:relative;
+	bottom: 0;
+	background: black;
+	height: auto;
+	width: 100%;
+	padding: 40px 0 0 0;
+}
+
+
+.footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+.footer p{
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+/*social -media*/
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: dodgerblue;
+}
+/* copyright*/
+.footer-copyright{
+    background: #000;
+    width:100%;
+    padding-top: 20px;
+    padding-bottom: 13px;
+}
+.footer-copyright p{
+    font-size: 14px;
+    word-spacing: 2px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+   
+
+
+
+
+
+
+
+

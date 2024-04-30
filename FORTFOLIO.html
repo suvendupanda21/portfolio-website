@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= <nav id="navbar">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="javascript.js"></script>
+       
+</head>
+<body>
+    <nav id="navbar">
+       
+        
+        
+        <ul>
+            
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">about</a></li>
+            <li class="item"><a href="#client-section">services</a></li>
+            <li class="item"><a href="#contact">portfolio</a></li>
+            <li class="item"><a href="contact">contact</a></li>
+            
+            
+        </ul>
+       
+    </nav>
+    <section class="mainsec">
+        <div class="bg">
+          
+            
+
+        </div>
+        <div class="maindiv">
+           <p>Hi. i'm <span class="span">suvendu panda</span>. from odisha</p>
+           <div class="animation"><span id="typing-animation"></span></div>
+          </div>
+            
+         
+    </section>
+    <script>
+
+        // Initialize the typing animation
+        const typingAnimationElement = document.getElementById('typing-animation');
+
+        // Create an array of typing text
+        const typingTexts = [
+        'Developer  ',
+        'YouTuber  ',
+        'Learner   ',
+        ];
+
+        // Create a function to display the typing animation for a given text
+        function playTypingAnimation(text) {
+        // Loop through each character and add it to the element
+        for (let i = 0; i < text.length; i++) {
+            setTimeout(() => {
+            typingAnimationElement.textContent += text[i];
+            }, i * 200); // Increase the delay to slow down the typing animation
+        }
+
+        // Once the animation is complete, reset the text and start over
+        setTimeout(() => {
+            typingAnimationElement.textContent = '';
+            playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+        }, text.length * 200);
+        }
+
+        // Start the typing animation loop
+        playTypingAnimation(typingTexts[0]);
+
+        </script>
+
+<!------about--------------------------->
+
+
+    <section class="section2">
+        <div class="abtdiv"><h1>shuvendu panda</h1>
+            <h5>Developer / Designer / Web3</h5>
+            <h1>About</h1>
+            <p class="para">Hey 👋 , I am suvendu panda and I would like to describe myself as a digital craftsman who loves building cool web apps / dapps . I also like to play with photo and vedio editing, particularly web3 themed so be sure to lookout for me if you want a team mate.
+    
+                 currently I am pursuing my python full stack course looking for internship opportunities.
+                
+                 My preferred tech stack is Javascript / React + python + html/css/bootstrap5 + sql.</p></div>
+
+
+
+ <div class="flexbox">
+    <div>
+        <ul class="tab-nav">
+          <li class="tab-nav-item active" onclick="showTab(0)">Technical skills</li>
+          <li class="tab-nav-item" onclick="showTab(1)">soft skill</li>
+      </ul>
+ 
+    <div class="tab-container">
+            <div class="tab active">
+            <li>Javascript</li>
+            <li>React.js</li>
+            <li>node.js</li>
+            <li>Express.js</li>
+            <li>HTML5/CSS3></li>
+            <li>Tailwind css</li>
+            <li>bootstrap5</li>
+            <li>mangodb</li>
+            <li>sql</li>
+        </div>
+        <div class="tab">
+            <li>Git/GitHub </li>
+            <li>Editing photos and videos</li>
+            <li>good Communication</li>
+            <li>Innovative thinking</li>    
+        </div>
+    </div>
+         
+</div>   
+<div class="skillphoto"><img src="skill.jpg"></div> 
+ </div>                
+    
+    </section>    
+   
+    
+<!------education--------------------------->
+
+<section class="edusec">
+    <h1 class="edu">Education</h1>
+    <div class="divedu"></div>
+
+    <div class="section">
+        <div class="edu1">
+            <h2 class="year1">2021-2023</h2>
+            <p class="degree">Master in computer application</p>
+            <p class="college">Siksha 'O' Anusandhan University</p>
+            <p class ="grade">Grade: First class distinction</p>
+        </div>
+        <div class="edu1">
+            <h2 class="year1">2018-2021</h2>
+            <p class="degree">B.sc in Mathematics</p>
+            <p class="college">Utkal University</p>
+            <p class ="grade">Grade: First class distinction</p>
+        </div>
+    </div>
+    <div class="section">
+        <div class="edu1">
+            <h2 class="year1">2016-2018</h2>
+            <p class="degree">12th</p>
+            <p class="college">Shanti Institute of Management and Studies</p>
+            <p class ="grade">Grade: 2nd class distinction</p>
+        </div>
+        <div class="edu1">
+            <h2 class="year1">YOP=2016</h2>
+            <p class="degree">10th</p>
+            <p class="college">Saraswati Shishu Vidya Mandir</p>
+            <p class ="grade">Grade: First class distinction</p>
+        </div>
+    </div>
+        
+        
+    </div>
+</section>
+
+
+<!------project--------------------------->
+
+<section class="projectsec">
+    <h1>projects</h1>
+    <div class="divline2"></div>
+    <div class="image-container">
+        <div class="image-wrapper">
+          <img src="prjct1.jpg" alt="Image 1">
+          <h1>Online food delivary system</h1>
+          <p class="prjctpara">An online food delivery website allows users to browse menus, place orders and have meals delivered to their doorstep from a variety of local restaurants.
+             These platforms provide convenience, choice, and often offer special deals and discounts to users.</p>
+            <a href="https://github.com/suvendupanda21/food_delivery_website">GitHub-Link</a>
+        </div>
+        <div class="image-wrapper">
+          <img src="prjct2.webp" alt="Image 2">
+          <h1>log-in app</h1>
+          <p class="prjctpara">An online food delivery website allows users to browse menus, place orders, and have meals delivered to their
+             doorstep from a variety of local restaurants. These platforms provide convenience, choice, and often offer special deals and discounts to users.</p>
+             <a href="https://github.com/suvendupanda21/login_page">GitHub-Link</a>
+        </div>
+        <div class="image-wrapper">
+          <img src="prjct3.jpg" alt="Image 3">
+          <h1>Netflix clone</h1>
+          <p class="prjctpara">An online food delivery website allows users to browse menus, place orders, and have meals delivered to their doorstep from a variety
+             of local restaurants. These platforms provide convenience, choice, and often offer special deals and discounts to users.
+            </p><a href="https://github.com/suvendupanda21/NETFLIX-clone">GitHub-Link</a>
+
+        </div>
+      </div>
+      
+
+
+
+    
+</section>
+
+<section>
+    <footer>
+        <div class="footer">
+            <p>This is footer section.</p>
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/profile.php?id=100078280365884"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/panda_subendu08?t=0vt-PkjNtdfPQyTAsoDyRw&s="><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://github.com/suvendupanda21"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/suvendu-panda-0175b5253"><i class="fa fa-linkedin-square"></i></a></li>
+                <li><a href="https://instagram.com/the_suvendu__official"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+            <div class="footer-copyright">
+                <p>copyright &copy;2022 </p>
+            </div>
+        </div>
+    </footer>
+</section>
+
+
+
+    
+    
+</body>
+</html>
